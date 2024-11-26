@@ -1,0 +1,53 @@
+body {
+    background-image: url('/fondo-mas.jpg'); 
+    background-size: cover;    
+    background-position: bottom;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+}
+.miperfil{
+    background-color: #41C6CE;
+    border-color: transparent ;
+    border-radius: 1rem;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding: 0.4rem 3rem;
+    color: white;
+}
+.logo{
+    border-radius: 1rem;
+}
+.text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+.card-text{
+    font-weight: bold;
+    font-size: 14px;
+}
+.card {
+    border-radius: 1rem !important;
+    margin: 0%;
+    background-color: transparent !important; 
+    border: none !important;                  
+    box-shadow: none !important;
+}
+.card-img-top{
+    background-color: transparent;
+    border-radius: 1rem !important;
+    margin: 0 !important;        
+    padding: 0 !important;       
+    width: 100% !important;      
+    border-radius: 0 !important;
+}
+.footer{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}

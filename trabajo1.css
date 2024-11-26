@@ -1,0 +1,104 @@
+.logo{
+    border-radius: 1rem;
+}
+
+.carousel-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    cursor: grab;
+}
+.carousel-container::-webkit-scrollbar {
+    display: none; 
+}
+.card {
+    flex: 0 0 auto;
+    width: 18rem;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: grab;
+    border-radius: 3rem !important;
+   
+}
+.card-body {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3rem !important;
+}
+.card-text{
+    font-size: 16px;
+}
+.title {
+    color: #69C4CC;
+    font-size: 18px;
+}
+.card-title, .card-text, .btn {
+    text-align: center;
+    user-select: none; 
+    
+}
+.boton{
+    color: #69C4CC;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: transparent;
+    padding: 0.4rem 3rem;
+}
+body {
+    background-image: url('/fondo-mas.jpg'); 
+    background-size: cover;    
+    background-position: bottom;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    
+}
+
+.contacta{
+    background-color: transparent;
+    border-color: transparent ;
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+
+.enviar {
+    background-color: #41C6CE;
+    border-color: transparent ;
+    border-radius: 1rem;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding: 0.4rem 3rem;
+    color: white;
+}
+
+.btn-close{
+    font-size: 40px;
+    fill: white;
+    color: white;
+}
+.modal-content{
+    background-color: transparent;
+}
+
+@media (max-width: 766px){
+    .form-container {
+        display: none;
+    }
+    .contenedor-contacta{
+        text-align: center;
+    }
+    .contacta{
+        border-radius: 1.5rem;
+        border: 1px solid #FFFFFF;
+        color: white;
+        padding: 20px 40px;
+        font-size: 25px;
+    }
+    
+}
